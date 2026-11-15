@@ -1,7 +1,11 @@
 <resources>
-    <style name="Theme.ExpenseManager" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="colorPrimary">#00796B</item>
-        <item name="colorPrimaryVariant">#004D40</item>
-        <item name="colorSecondary">#FF8F00</item>
+    <style name="Theme.ExpenseManager" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#14284B</item>
+        <item name="colorPrimaryVariant">#0B1B3A</item>
+        <item name="colorSecondary">#2563EB</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">#14284B</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">#F4F6F8</item>
     </style>
 </resources>

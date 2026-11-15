@@ -3,7 +3,11 @@
     <string name="balance">الرصيد الإجمالي</string>
     <string name="income">الإيراد</string>
     <string name="expense">المصروف</string>
-    <string name="this_month">إجمالي الشهر</string>
+    <string name="type_income">▲ إيراد</string>
+    <string name="type_expense">▼ مصروف</string>
+    <string name="status_paid">✔ مكتمل</string>
+    <string name="status_pending">⏳ قيد الانتظار</string>
+    <string name="fab_add">+ عملية جديدة</string>
     <string name="add">إضافة</string>
     <string name="cancel">إلغاء</string>
     <string name="save">حفظ</string>
@@ -16,7 +20,8 @@
     <string name="date_label">التاريخ</string>
     <string name="delete_confirm">حذف هذه العملية؟</string>
     <string name="invalid">أدخل وصفًا ومبلغًا صحيحًا</string>
-    <string name="empty">لا توجد عمليات في هذا الشهر، اضغط + للإضافة</string>
+    <string name="empty">لا توجد عمليات في هذا الشهر\nاضغط «عملية جديدة» للبدء</string>
+    <string name="tab_dashboard">اللوحة</string>
     <string name="tab_list">العمليات</string>
     <string name="tab_journal">اليومية</string>
     <string name="col_date">اليوم</string>
@@ -26,6 +31,21 @@
     <string name="col_balance">الرصيد</string>
     <string name="opening">رصيد سابق</string>
     <string name="total">الإجمالي</string>
+    <string name="stat_income">إجمالي الإيرادات</string>
+    <string name="stat_due">الإيرادات المستحقة</string>
+    <string name="stat_expense">إجمالي المصروفات</string>
+    <string name="stat_balance">الرصيد الإجمالي</string>
+    <string name="chart_title">اتجاه آخر 6 أشهر</string>
+    <string name="legend_income">● الإيراد</string>
+    <string name="legend_expense">● المصروف</string>
+    <string name="dist_title">التوزيع حسب التصنيف</string>
+    <string name="dist_expense">مصروف</string>
+    <string name="dist_income">إيراد</string>
+    <string name="latest_title">أحدث العمليات</string>
+    <string name="col_desc">الوصف</string>
+    <string name="col_amount">المبلغ</string>
+    <string name="col_day">التاريخ</string>
+    <string name="col_status">الحالة</string>
     <string-array name="categories">
         <item>طعام</item>
         <item>مواصلات</item>
