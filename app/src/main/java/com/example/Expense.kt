@@ -10,7 +10,8 @@ data class Expense(
     val amount: Double,
     val isIncome: Boolean,
     val category: String,
-    val date: Long
+    val date: Long,
+    val paid: Boolean = true
 )
 
 object Storage {
@@ -32,7 +33,8 @@ object Storage {
                         o.getDouble("amount"),
                         o.getBoolean("isIncome"),
                         o.getString("category"),
-                        o.getLong("date")
+                        o.getLong("date"),
+                        o.optBoolean("paid", true)
                     )
                 )
             }
@@ -53,6 +55,7 @@ object Storage {
                     .put("isIncome", it.isIncome)
                     .put("category", it.category)
                     .put("date", it.date)
+                    .put("paid", it.paid)
             )
         }
         context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
