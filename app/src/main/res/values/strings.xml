@@ -1,19 +1,31 @@
 <resources>
     <string name="app_name">مصروفي</string>
-    <string name="balance">الرصيد</string>
-    <string name="income">الدخل</string>
+    <string name="balance">الرصيد الإجمالي</string>
+    <string name="income">الإيراد</string>
     <string name="expense">المصروف</string>
-    <string name="this_month">هذا الشهر</string>
+    <string name="this_month">إجمالي الشهر</string>
     <string name="add">إضافة</string>
     <string name="cancel">إلغاء</string>
     <string name="save">حفظ</string>
     <string name="delete">حذف</string>
+    <string name="close">إغلاق</string>
     <string name="title_hint">الوصف (مثال: قهوة)</string>
     <string name="amount_hint">المبلغ</string>
     <string name="new_entry">عملية جديدة</string>
+    <string name="edit_entry">تعديل العملية</string>
+    <string name="date_label">التاريخ</string>
     <string name="delete_confirm">حذف هذه العملية؟</string>
     <string name="invalid">أدخل وصفًا ومبلغًا صحيحًا</string>
-    <string name="empty">لا توجد عمليات بعد، اضغط + للإضافة</string>
+    <string name="empty">لا توجد عمليات في هذا الشهر، اضغط + للإضافة</string>
+    <string name="tab_list">العمليات</string>
+    <string name="tab_journal">اليومية</string>
+    <string name="col_date">اليوم</string>
+    <string name="col_income">إيراد</string>
+    <string name="col_expense">مصروف</string>
+    <string name="col_net">الصافي</string>
+    <string name="col_balance">الرصيد</string>
+    <string name="opening">رصيد سابق</string>
+    <string name="total">الإجمالي</string>
     <string-array name="categories">
         <item>طعام</item>
         <item>مواصلات</item>
@@ -23,5 +35,19 @@
         <item>ترفيه</item>
         <item>راتب</item>
         <item>أخرى</item>
+    </string-array>
+    <string-array name="months">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
     </string-array>
 </resources>
