@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">مصروفي</string>
+    <string name="balance">الرصيد</string>
+    <string name="income">الدخل</string>
+    <string name="expense">المصروف</string>
+    <string name="this_month">هذا الشهر</string>
+    <string name="add">إضافة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="title_hint">الوصف (مثال: قهوة)</string>
+    <string name="amount_hint">المبلغ</string>
+    <string name="new_entry">عملية جديدة</string>
+    <string name="delete_confirm">حذف هذه العملية؟</string>
+    <string name="invalid">أدخل وصفًا ومبلغًا صحيحًا</string>
+    <string name="empty">لا توجد عمليات بعد، اضغط + للإضافة</string>
+    <string-array name="categories">
+        <item>طعام</item>
+        <item>مواصلات</item>
+        <item>فواتير</item>
+        <item>تسوق</item>
+        <item>صحة</item>
+        <item>ترفيه</item>
+        <item>راتب</item>
+        <item>أخرى</item>
+    </string-array>
+</resources>
