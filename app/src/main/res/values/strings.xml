@@ -70,4 +70,5 @@
         <item>نوفمبر</item>
         <item>ديسمبر</item>
     </string-array>
+        <color name="ic_launcher_background">#14284B</color>
 </resources>
